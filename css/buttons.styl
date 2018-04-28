@@ -1,0 +1,49 @@
+@import "themes"
+
+.button 
+    height: 45px
+    line-height: 45px
+    margin: 10px
+    padding: 0 14px
+    display: inline-block
+    box-shadow: 0 4px 6px rgba(50,50,93,.11), 0 1px 3px rgba(0,0,0,.08)
+    -webkit-box-shadow: 0 4px 6px rgba(50,50,93,.11), 0 1px 3px rgba(0,0,0,.08)
+    -moz-box-shadow: 0 4px 6px rgba(50,50,93,.11), 0 1px 3px rgba(0,0,0,.08)
+    background: slate_blue
+    border: 1px
+    color: white
+    border-radius: 5px
+    text-decoration: none 
+    transition: all .20s ease
+    -webkit-transition: all .20s ease
+    letter-spacing: 0.1em
+    text-transform: uppercase
+    font-size: 15px
+    font-weight: 500
+    cursor: pointer
+
+    &:hover
+        transform: translateY(-1px)
+        background: mix(light_slate_blue, white, 85%)
+
+    &.invert
+        background white
+        color: slate_blue 
+
+        &:hover
+            background slate_blue
+            color: white
+
+    &.rounded
+        border-radius: 25px
+
+    &.gradient
+        background: rgb(80,84,222);
+        background: linear-gradient(90deg, rgba(80,84,222,1) 0%, rgba(104,116,232,1) 35%, rgba(108,119,222,1) 100%);
+
+
+    for name, color in colors
+        &.btn-{name}
+            background: color
+            &:hover
+                background: mix(color, white, 85%)

@@ -1,0 +1,145 @@
+html,
+body {
+  font-family: 'Ubuntu', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+  height: 100%;
+  margin: 0;
+}
+.button {
+  height: 45px;
+  line-height: 45px;
+  margin: 10px;
+  padding: 0 14px;
+  display: inline-block;
+  box-shadow: 0 4px 6px rgba(50,50,93,0.11), 0 1px 3px rgba(0,0,0,0.08);
+  -webkit-box-shadow: 0 4px 6px rgba(50,50,93,0.11), 0 1px 3px rgba(0,0,0,0.08);
+  -moz-box-shadow: 0 4px 6px rgba(50,50,93,0.11), 0 1px 3px rgba(0,0,0,0.08);
+  background: #6874e8;
+  border: 1px;
+  color: #fff;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: all 0.2s ease;
+  -webkit-transition: all 0.2s ease;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  font-size: 15px;
+  font-weight: 500;
+  cursor: pointer;
+}
+.button:hover {
+  transform: translateY(-1px);
+  background: #acb3f2;
+}
+.button.invert {
+  background: #fff;
+  color: #6874e8;
+}
+.button.invert:hover {
+  background: #6874e8;
+  color: #fff;
+}
+.button.rounded {
+  border-radius: 25px;
+}
+.button.gradient {
+  background: #5054de;
+  background: linear-gradient(90deg, #5054de 0%, #6874e8 35%, #6c77de 100%);
+}
+.button.btn-koamaru {
+  background: #392759;
+}
+.button.btn-koamaru:hover {
+  background: #564771;
+}
+.button.btn-slate_blue {
+  background: #6874e8;
+}
+.button.btn-slate_blue:hover {
+  background: #7e88eb;
+}
+.button.btn-light_slate_blue {
+  background: #9ea6f0;
+}
+.button.btn-light_slate_blue:hover {
+  background: #acb3f2;
+}
+.button.btn-lavender {
+  background: #b47aea;
+}
+.button.btn-lavender:hover {
+  background: #bf8ded;
+}
+.button.btn-purple_navy {
+  background: #5e548e;
+}
+.button.btn-purple_navy:hover {
+  background: #766d9e;
+}
+.button.btn-aquamarine {
+  background: #5dd9c1;
+}
+.button.btn-aquamarine:hover {
+  background: #75deca;
+}
+.button.btn-light_green {
+  background: #21d19f;
+}
+.button.btn-light_green:hover {
+  background: #42d7ad;
+}
+.button.btn-salmon {
+  background: #ff987e;
+}
+.button.btn-salmon:hover {
+  background: #ffa791;
+}
+.button.btn-yellow {
+  background: #f6b540;
+}
+.button.btn-yellow:hover {
+  background: #f7c05c;
+}
+.button.btn-rose {
+  background: #d81e5b;
+}
+.button.btn-rose:hover {
+  background: #dd3f73;
+}
+.button.btn-amazonite {
+  background: #00bfb2;
+}
+.button.btn-amazonite:hover {
+  background: #26c8bd;
+}
+.button.btn-razzmic {
+  background: #8a4f7d;
+}
+.button.btn-razzmic:hover {
+  background: #9b6990;
+}
+.button.btn-sunny {
+  background: #edff7a;
+}
+.button.btn-sunny:hover {
+  background: #efff8d;
+}
+.button.btn-mindaro {
+  background: #ddfc74;
+}
+.button.btn-mindaro:hover {
+  background: #e2fc88;
+}
+.button.btn-bittersweet {
+  background: #f27059;
+}
+.button.btn-bittersweet:hover {
+  background: #f38571;
+}
+.container {
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
